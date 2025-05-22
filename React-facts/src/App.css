@@ -1,14 +1,23 @@
 body {
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background: #27292c;
     color: white;
+    background-image: url("/src/assets/react-logo-half.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+main{
+  height: auto;
 }
 
 .logo{
     width: 55px;
     height: auto;
-    
+    margin-right: 8px;
 }
 
 h1 {
@@ -16,14 +25,39 @@ h1 {
 }
 
 header{
+    width: 100%;
+    height: 90 px;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
+    
 }
-.nav-list{
-  list-style: none;
+nav{
   display: flex;
+  align-items: center;
 }
-.nav-list li{
-  margin-left: 10px;
+
+nav > span{
+  color: #61DAFB;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main{
+  padding: 1.5rem 1rem;
+
+}
+footer{
+  padding: 1.5rem;
+}
+
+ul li{
+  line-height: 1.5rem;
+}
+
+ul li::marker {
+  color: #61DAFB;
+  font-size: 1.2rem;
 }

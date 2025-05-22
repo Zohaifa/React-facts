@@ -6,9 +6,9 @@ import Footer from './components/footer.jsx';
 function App() {
   return(
     <>
-        <Header />
-        <MainContent />
-        <Footer />
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   )
 }
